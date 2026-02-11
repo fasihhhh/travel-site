@@ -1,0 +1,1016 @@
+.Poppins{
+  font-family: "Poppins", sans-serif;
+}
+.Montserrat{
+  font-family: "Montserrat", sans-serif;
+}
+.DancingScript{
+  font-family: "Dancing Script", sans-serif;
+}
+.f-italic{
+    font-style: italic;
+}
+.flex-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+:root{
+    --dark-blue :#192d4e ;
+    --danger-red :#dc2e51 ;
+    --light-grey :#e5e5e5 ;
+    --dark-grey :#d2d0d0 ;
+    --banner-blue :#102636;
+    --off-white :#f6f8fb;
+    --footer-bg: #203655;
+    --footer-copyright-bg: #12223c;
+}
+.dark-blue-text{
+    color: var(--dark-blue) ;
+}
+.dark-blue-bg{
+    background-color: var(--dark-blue) ;
+}
+.top-header-layer{
+    background-color: var(--dark-blue);
+}
+.top-header-layer a{
+    color: white;
+}
+.top-header-layer a:hover{
+    color:var(--danger-red);
+    cursor: pointer;
+}
+.beat-my-quote{
+    text-decoration: none;
+}
+.active-nav{
+    color: var(--danger-red);
+}
+.active-footer{
+    color: var(--danger-red);
+    text-decoration: underline;
+}
+/* .beat-my-quote:hover{
+    background-color: #e3e4e5;
+    color: white;
+} */
+
+.fs-17px{
+    font-size: 17px;
+}
+.fs-10px{
+    font-size: 10px;
+}
+.fs-12px{
+    font-size: 12px;
+}
+.fs-14px{
+    font-size: 14px;
+}
+.fs-15px{
+    font-size: 15px;
+}
+.fs-16px{
+    font-size: 16px;
+}
+.fs-18px{
+    font-size: 18px;
+}
+.fs-20px{
+    font-size: 18px;
+}
+.fs-23px{
+    font-size: 18px;
+}
+.fs-26px{
+    font-size: 26px;
+}
+.fs-1rem{
+    font-size: 1.2rem;
+}
+.fs-1-8rem{
+    font-size: 1.8rem;
+}
+.fs-1rem-accurate{
+    font-size: 1rem;
+}
+.fs-2rem{
+    font-size: 2.1rem;
+}
+.fs-2-5rem{
+    font-size: 2.5rem;
+}
+.fs-3rem{
+    font-size: 3.2rem;
+}
+.fs-50px{
+    font-size: 50px;
+}
+/* .social-icons-top{
+    box-shadow: 1px 10px 10px black;
+} */
+
+.social-icons-top i{
+    color: var(--dark-blue);
+    cursor: pointer;
+}
+.social-icons-top i:hover{
+    color: var(--danger-red);
+    cursor: pointer;
+}
+.social-icons-top:hover{
+    opacity: 1;
+}
+header nav  a{
+    text-decoration: none;
+    color: var(--dark-blue);
+}
+header nav ul li a:hover{
+    color: var(--danger-red);
+}
+.w-100px{
+    width: 130px;
+}
+.fixed-section{
+    position: fixed;
+    transform: translateY(-50%);
+    top: 55%;
+    right:10px;
+}
+.fixed-section a img , .fixed-section a i{
+      filter: drop-shadow(5px 5px 25px black);
+}
+.fixed-section a img:hover, .fixed-section a i:hover{
+      filter: drop-shadow(5px 5px 10px black);
+}
+.scale-1{
+    transform: scale(1.1);
+}
+.banner-section-home{
+    background-image: url(/assets/images/home_section_bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+}
+.overlay{
+    contain: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    background-color: rgb(0, 0, 0);
+    opacity: 0.2 !important;
+}
+.heading-shadow{
+     text-shadow: 10px 10px 10px black;
+}
+.radio-div{
+    text-shadow: 10px 10px 10px black;
+}
+.form-check-input{
+    background-color: transparent;
+    border:0px;
+    outline: 3px solid white;
+    outline-offset: 3px;
+    height: 0.5rem;
+    width: 0.5rem;
+}
+.form-check-input:checked{
+    background-color: white;
+    border: 0px ;
+    outline: 3px solid white;
+    outline-offset: 3px;
+    box-shadow: none;
+    height: 0.5rem;
+    width: 0.5rem;
+}
+.search-engine{
+    color: var(--light-grey);
+    background-color: #f0f0f0f1;
+}
+.search-engine .input-group{
+    margin: 2px;
+}
+.search-engine .input-group input:focus{
+    box-shadow: none;
+    text-shadow: none;
+}
+.search-engine .input-group input:focus .input-group {
+
+    background-color: var(--light-grey) !important;
+}
+.search-engine [type="date"]::before {
+  content: attr(placeholder);
+  color: #999;
+  margin-right: 122px;
+}
+.py-140{
+    padding: 0 0 160px 0;
+}
+.custom-padding-banner{
+    padding: 120px 0 90px 0 ;
+}
+/* .pb-160px{
+    padding-bottom: 160px;
+} */
+.py-dropdown-button{
+    padding: 14px 0;
+    outline: 0;
+    border: 0;
+    margin-top: 2px;
+    color: var(--dark-grey);
+}
+.py-dropdown-button:hover{
+    color: var(--dark-grey);
+}
+.py-dropdown-button:focus{
+    color: var(--dark-grey);
+}
+.py-dropdown-button:active{
+    color: var(--dark-grey);
+}
+.search-icon-banner{
+    transform:rotateY(180deg);
+    color: var(--light-grey);
+    margin: 0;
+    /* width: 100%; */
+    /* margin-top: -1px; */
+}
+.custom-padding-banner-dropdown{
+    padding: 14px 0;
+    margin-bottom: 13px;
+    cursor: pointer;
+}
+.search-engine{
+    opacity: 95%;
+}
+.search-engine > *{
+    opacity: 100%;
+}
+.search-engine .dropdown{
+    width: 1000px;
+    display: inline-block;
+}
+.search-engine .dropdown select{
+   /* width: 100%; */
+}
+.search-engine .dropdown option{
+   /* width: 100%; */
+}
+.search-engine .dropdown select {
+  appearance: none;      /* Standard */
+  -webkit-appearance: none; /* Chrome, Safari */
+  -moz-appearance: none;    /* Firefox */
+  background-image: none;   /* remove default */
+}
+
+.search-engine .dropdown select {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background: url(/assets/images/multiple-users-silhouette.png) no-repeat right 0.75rem center/2rem;
+  background-size: 20px;
+  color: 20px;
+  color: var(--dark-blue);
+  padding-right: 5rem; /* make space for icon */
+
+}
+.search-engine .second-layer select {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background-size: 20px;
+  color: 20px;
+  color: var(--dark-blue);
+  padding-right: 5rem; /* make space for icon */
+}
+.booking-info-form select{
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  color: 20px;
+}
+
+.search-engine button{
+     min-width:60px;
+}
+.search-engine .second-layer button{
+     /* min-width:160px; */
+}
+.people-icon{
+    color: var(--light-grey);
+}
+.pt-200{
+    padding: 220px 0 0px 0;
+}
+.info-on-picture{
+    text-shadow: 10px 10px 10px black;
+}
+.image-div{
+    object-fit: cover;
+    object-position: center;
+    width: 100%;
+    height: 100%;
+    background-color: var(--dark-blue);
+    position: relative;
+
+}
+.image-div img{
+    width: 100%;
+}
+.image-div img:hover{
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+/* .image-div:hover:after{
+    content: "";
+    position: absolute;
+    height: 20px;
+    width: 90px;
+    background-color: rgb(224, 220, 220);
+    bottom:50%;
+    left: 40%;
+    top:50%;
+    right: 50%;
+    background-image: url(/assets/images/right-arrow\(1\).png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position:center;
+    border-radius: 20%;
+    padding: 15px;
+    cursor: pointer;
+} */
+.banner-blue{
+    background-color: var(--banner-blue);
+}
+.banner-offwhite{
+    background-color: var(--off-white);
+}
+.custom-padding-bottom{
+    padding-bottom: 150px !important;
+}
+.padding-4rem{
+    padding-top: 5.8rem 0 0 0 !important;
+}
+.negative-margin{
+    margin-top: -150px;
+}
+.flight-page-redirect-section{
+    border-top: 3px solid var(--dark-blue);
+}
+.flight-to{
+    background-color: #f6f8fb;
+}
+.flight-to:hover{
+    background-color: var(--danger-red);
+    color: white;
+}
+.bg-airline-logo-div{
+    background-color: #f6f8fb;
+    /* background-color:var(--off-white); */
+}
+.airline-logos:hover{
+    background-color: #e0e1e1;
+}
+.padding-x-30{
+    padding: 50% 0;
+}
+.text-color-last-about-us{
+    color: #6e7b8e;
+}
+.dark-blue-div-about-us{
+    background-color: #203655;
+}
+footer{
+    background-color: var(--footer-bg);
+    color: white;
+}
+footer {
+    font-size: 14px;
+}
+.get-in-touch  i{
+    color: #dc2e51;
+}
+.first-layer  h5{
+    padding: 0px 0 10px 0;
+}
+.first-layer  ul li{
+    margin-bottom: 13px;
+}
+footer{
+    background-image: url(/assets/images/footer\ bg\ img.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+footer nav{
+    width: 98%;
+    margin: auto;
+}
+footer  a{
+    text-decoration: none;
+    color: rgb(240, 240, 240);
+}
+footer  a:hover{
+    text-decoration: underline;
+    color: var(--danger-red);
+}
+.footer-icons i:hover{
+    color: var(--danger-red);
+    cursor: pointer;
+}
+.footer-nav-border{
+    border-top: 1px solid #495a74;
+    border-bottom: 1px solid #495a74;
+}
+.copyright{
+    background-color: var(--footer-copyright-bg);
+}
+.email-subscription-section .input-above-footer{
+    width: 440px;
+}
+.email-subscription-section .input-above-footer input{
+    background-color: #be2745;
+    color: #e0e1e1 !important;
+    accent-color: var(--off-white);
+    outline: 0;
+    width: 100%;
+    height: 58px;
+}
+.email-subscription-section .input-above-footer button {
+    background-color: #192d4e;
+    outline: 0;
+    font-size: 0.8rem;
+    height: 58px;
+}
+.email-subscription-section .input-above-footer button:hover {
+    background-color: #b22541;
+    outline: 0;
+    font-size: 0.8rem;
+}
+.beatmyquote-section input[type='radio']{
+    height:auto;
+    width: auto;
+}
+.beatmyquote-section input[type='radio']:checked{
+    accent-color: var(--dark-blue);
+}
+.beatmyquote-main-form{
+
+}
+.beatmyquote-section form input ,.beatmyquote-section form select{
+    height: 50px;
+    width: 100%;
+    box-shadow: 2px 4px 15px rgb(216, 216, 216);
+}
+.beatmyquote-section .email-subscription-section .input-above-footer input{
+    box-shadow: none;
+}
+.beatmyquote-section form select{
+    height: 50px;
+}
+.beatmyquote-section form select:focus{
+    box-shadow: 0;
+    text-shadow: 0;
+}
+.beatmyquote-section form select:active{
+    box-shadow: 0;
+    text-shadow: 0;
+}
+.beatmyquote-section form input:focus{
+    outline: 0;
+}
+.beatmyquote-section form button{
+    background-color: #192d4e;
+    color: white;
+    height: 50px;
+}
+.beatmyquote-section form button:hover{
+    background-color: #e3e3e3;
+}
+.beatmyquote-main-form input{
+    font-weight: 400;
+    color: #595977;
+
+}
+.beatmyquote-main-form input[type='date']{
+    font-weight: 300;
+    color: #595977;
+
+}
+.beatmyquote-main-form select {
+    font-weight:300;
+    color: #595977;
+}
+.banner-section-beatmyquote{
+    background-image: url(/assets/images/banner-img-2.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+    padding-top: 100px;
+    padding-bottom: 30px;
+}
+.banner-section-aboutus{
+    background-image: url(/assets/images/aboutus-banner-min.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    position: relative;
+    padding: 200px 0;
+}
+.banner-section-bussinessclass{
+    background-image: url(/assets/images/banner-img-bussinessclass.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+    padding-top: 150px;
+    padding-bottom: 30px;    
+}
+.banner-section-airline{
+    background-image: url(/assets/images/airline-banner-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    position: relative;
+    padding-top: 60px;
+    padding-bottom: 40px;
+
+}
+.banner-section-contactus{
+    background-image: url(/assets/images/contactus-banner-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    position: relative;
+    padding: 170px 0;
+}
+.banner-section-countries{
+    background-image: url(/assets/images/countries-banner-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    position: relative;
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+.banner-section-destination{
+    background-image: url(/assets/images/destination-banner-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    position: relative;
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+.banner-section-specialoffer{
+    background-image: url(/assets/images/specialoffer-banner-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    position: relative;
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+.banner-section-review-itinerary-OneWay{
+    background-image: url(/assets/images/reviewitineraryOneway.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    position: relative;
+    padding-top: 260px;
+    padding-bottom: 40px;
+}
+.banner-section-booking-info{
+    background-image: url(/assets/images/booking-info-banner-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    position: relative;
+    padding-top: 260px;
+    padding-bottom: 40px;
+}
+.banner-section-confirmation{
+    background-image: url(/assets/images/confirmation-banner-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    position: relative;
+    padding-top: 280px;
+    padding-bottom: 40px;
+}
+.padding-top-200px{
+    padding-top: 200px;
+}
+.padding-bottom-200px{
+    padding-bottom: 200px;
+}
+.pt6rem{
+    padding-top: 15rem;
+}
+.destination-div .input-div input, .airlines-div .input-div input{
+    width: 90%;
+}
+.destination-div .input-div input:focus,.airlines-div .input-div input:focus{
+    border: 0;
+    outline: 0;
+}
+.destination-div .checkbox-div .each-checkbox input{
+    background-color: red;
+}
+.destination-div .checkbox-div .each-checkbox input:checked{
+    background-color: red;
+}
+.flight-card .img , .flight-detail .img{
+    border-radius: 50%;
+    border: 1px solid #999;
+}
+.flight-card .logo , .flight-detail .logo{
+    text-align: center;
+}
+
+.flight-card  * input[type='radio']{
+    border-radius: 0;
+    background: red;
+}
+/* .coutry-detail::after{
+    content: "";
+    height: 1px;
+    width: 120%;
+    background-color: #495a74;
+    position: absolute;
+    left: 80%;
+    bottom: 50%;
+} */
+ .horizontal{
+    height: 1px;
+    width: 200px;
+    background-color: #6e7b8e;
+    position: relative;
+    right: 10px;
+    /* offset: 5; */
+ }
+ .vertical{
+    height: 150px;
+    width: 2px;
+    background-color: #6e7b8e;
+    position: relative;
+    right: 10px;
+    bottom: 0;
+    /* offset: 5; */
+ }
+ .horizontal::before{
+    content: "";
+    position: absolute;
+    height: 14px;
+    width: 14px;
+    border-radius: 50%;
+    background-color: #192d4e;
+    left: 0;
+    top: -7px;
+ }
+ .horizontal::after{
+    content: "";
+    position: absolute;
+    height: 14px;
+    width: 14px;
+    border-radius: 50%;
+    background-color: #192d4e;
+    right: 0;
+    top: -7px;
+ }
+.vertical::before {
+    content: "";
+    position: absolute;
+    height: 14px;
+    width: 14px;
+    border-radius: 50%;
+    background-color: #192d4e;
+    left: -6px;
+    top: -7px;
+ }
+ .vertical::after{
+    content: "";
+    position: absolute;
+    height: 14px;
+    width: 14px;
+    border-radius: 50%;
+    background-color: #192d4e;
+    right: -6px;
+    top: 100%;
+ }
+ .border-left-price-amount {
+    border-left: 1px solid #d6d7d8;
+ }
+ .flight-card{
+    background-color: #f2f2f2;
+ }
+ .show-filter-button:hover{
+    background-color: rgb(1, 1, 104);
+ }
+ .text-light-grey{
+    color: #eaebed !important;
+ }
+ .text-light-dark{
+        color: #949494;
+ }
+.greyline{
+    background-color: #d6d7d8;
+    height: 2px;
+    width: 96%;
+}
+.w-680px{
+    width: 100%;
+    max-width: 680px;
+}
+.border-top-price-amount{
+    border-top: 1px solid #cdcecf;
+    width: 96%;
+}
+.flight-card::after{
+    content: "";
+    height: 95px;
+    width: 95px;
+    position: absolute;
+    background-image: url(/assets/images/flight-card-after.png);
+    top:0;
+    right: 0;
+}
+.flight-card .second-layer a:hover{
+    color: var(--dark-blue) !important;
+    text-decoration: underline !important;
+}
+.right-grey-part{
+    background-color: #f2f2f2;
+}
+.contactus-form input:not([type='checkbox']) ,.contactus-form textarea{
+    border: 0;
+    background-color: #13223c;
+    color: #d6d6d6;
+    padding: 9px 0;
+    padding-left: 15px;
+    width: 100%;
+}
+.contactus-form input:focus ,.contactus-form textarea:focus{
+    border: 0 !important;
+    outline: 0 !important;
+    box-shadow: 0 !important;
+}
+#contactus-agree-checkbox{
+    /* margin-bottom: -500px !important; */
+    /* margin-top: 400px; */
+    
+}
+.pale-red-bg-contactus{
+    background-color: #dc2e51;
+}
+.padding700px{
+    /* padding: 100px 0; */
+}
+.padding500px{
+    padding: 300px 0;
+}
+.w-710px{
+    width: 100%;
+    max-width: 710px;
+}
+.gap-70px{
+    gap: 25%;
+}
+.negative-margin-top{
+    margin-top: -15px;
+}
+.completion-line-ball{
+    border-radius: 50%;
+    height: 13px;
+    width: 13px;
+}
+.completion-line{
+    border-bottom: 2px solid #999;
+}
+.flight-detail{
+    background-color: #f6f8fb;
+}
+.border-bottom{
+    border-bottom: 2px solid #939393;
+    width: 90%;
+    margin: auto;
+}
+.light-blue-color{
+    background-color: #213960;
+}
+.w-90per{
+    width: 60%;
+}
+.each-form .top-layer{
+    background-color: #e4e8ee;
+}
+.pb-100px{
+    padding-bottom: 100px !important;
+}
+.booking-info-form input:not([type='checkbox']){
+    border: 0;
+    background-color: #ffffff;
+    color: #575757;
+    padding: 9px 0;
+    padding-left: 15px;
+    width: 100%;
+    font-size: 15px;
+}
+.booking-info-form {
+    background-color: #f7f9fd;
+}
+.booking-info-form input:focus{
+    border: 0;
+    outline: 0;
+}
+.confirmation-div .line{
+    width: 1px;
+    background-color: #dadcdf;
+    height: 110px;
+}
+
+.border-bottom-confirmation{
+    border-bottom: 1px solid #dadcdf;
+}
+.confirmation-div  a i:hover{
+    color: var(--dark-blue);
+}
+.direct-indirect input[type='radio']{
+    accent-color: var(--dark-blue) !important;
+}
+.confirmation-div{
+    position: relative;
+    box-shadow: 0;
+    width: 100%;
+}
+.confirmation-div{
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-image: url(/assets/images/wavelike-bg.png);
+    background-position: center;
+    background-repeat: repeat;
+    background-attachment: scroll;
+    background-size: cover;
+}
+/* for logo icon and toggler */
+@media screen and (max-width:1400px) {
+    .social-icons-top{
+        box-shadow: 1px 10px 10px black
+    }
+    .social-icons-top i{
+        color: #e7e5e5;
+    }
+    .social-icons-top i:hover{
+        color: var(--dark-blue);
+    }
+     .social-icons-top{
+    opacity: 0.7;
+    }
+     .social-icons-top:hover{
+    opacity: 1;
+    }
+
+}
+@media screen and (max-width:1200px) {
+    .padding500px{
+        padding: 0;
+    }
+}
+@media screen and (max-width:990px) {
+    .top-header-layer .telephone-icon{
+        transform: scale(1.2);
+    }
+    header nav .logo img{
+        transform: scale(0.9);
+    }
+    header nav  .navbar-toggler-icon{
+        transform: scale(0.9);
+    }
+    header nav  .navbar-toggler {
+        padding: 6px 10px !important;
+        transform: scale(0.9) !important;
+    }
+    .search-btn{
+        width: 100%;
+    }
+    .confirmation-div .line{
+        width: 100%;
+        background-color: #dadcdfc6;
+        height: 1px;
+        margin: 10px 0;
+    }
+
+}
+@media screen and (max-width:340px) {
+    header nav .logo img{
+        transform: scale(0.8);
+    }
+    header nav  .navbar-toggler-icon{
+        transform: scale(0.9);
+    }
+    header nav  .navbar-toggler {
+        padding: 4px 8px !important;
+        transform: scale(0.8) !important;
+    }
+    .dark-blue-div-about-us strong{
+        font-size: 1rem;
+    }
+    .dark-blue-div-about-us{
+        font-size: 1rem;
+        padding: 15px 0;
+    }
+
+}
+@media screen and (max-width:576px) {
+
+    .heading{
+        padding: 0px 40px 0px 0;
+    }
+    .heading h1{
+        font-size: 2.4rem;
+    }
+    .heading h5{
+        font-size: 1rem;
+    }
+    .social-icons-top {
+        padding: 2px 5px;
+    }
+    .social-icons-top i{
+        font-size: 1rem;
+    }
+    .blue-banner-section .heading{
+        padding-left: 20px;
+    }
+    .blue-banner-section .custom-padding-bottom{
+        padding-bottom: 170px;
+    }
+    .blue-banner-section .absolute-container-of-blue-banner{
+        top: 320px;
+    }
+
+
+}
+@media screen and (max-width:380px) {
+
+    .heading h1{
+        font-size: 2.2rem;
+    }
+    .heading h4{
+        font-size: 0.3rem;
+    }
+    .social-icons-top {
+        padding: 2px 5px;
+    }
+    .social-icons-top i{
+        font-size: 1rem;
+    }
+    .position-relative .info-on-picture  h3{
+        font-size: 0.9rem;
+    }
+    .position-relative .info-on-picture  span, .info-on-picture  strong {
+        font-size: 0.7rem;
+        /* background-color: red; */
+    }
+    .dark-blue-div-about-us strong{
+        font-size: 1rem;
+    }
+    .dark-blue-div-about-us{
+        font-size: 1rem;
+        padding: 15px 0;
+    }
+
+
+
+}
+@media screen and (max-width:480px) {
+    .dark-blue-div-about-us strong{
+        font-size: 1.2rem;
+    }
+    .email-subscription-section img{
+        transform: scale(0.8);
+    }
+
+}
+@media screen and (max-width:500px) {
+
+}
